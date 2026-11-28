@@ -31,6 +31,6 @@ jobs:
   gate:
     runs-on: ubuntu-latest
     steps:
-      - uses: ifurs/contribution-gateway@c5e79201353115214dcf7bf69f874dd792234a4d  # v0.3.0
+      - uses: ifurs/contribution-gateway@5ecbb3f706c8fc961a5ec94cf3cebf33f9e1295f  # v0.3.1
         with:
           pull-request: ${{ inputs.pr }}
